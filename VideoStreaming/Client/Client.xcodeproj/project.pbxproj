@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6672EAC12AF7CB5200A8D780 /* CMSampleBuffer+isKeyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672EAC02AF7CB5200A8D780 /* CMSampleBuffer+isKeyFrame.swift */; };
+		6672EAC32AF7CCAE00A8D780 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672EAC22AF7CCAE00A8D780 /* TCPClient.swift */; };
+		6672EAC52AF7CEB800A8D780 /* VideoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672EAC42AF7CEB800A8D780 /* VideoClient.swift */; };
 		66AE73CF2AF6F8F700DE1406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE73CE2AF6F8F700DE1406 /* AppDelegate.swift */; };
 		66AE73D12AF6F8F700DE1406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE73D02AF6F8F700DE1406 /* SceneDelegate.swift */; };
 		66AE73D32AF6F8F700DE1406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE73D22AF6F8F700DE1406 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6672EAC02AF7CB5200A8D780 /* CMSampleBuffer+isKeyFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMSampleBuffer+isKeyFrame.swift"; sourceTree = "<group>"; };
+		6672EAC22AF7CCAE00A8D780 /* TCPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		6672EAC42AF7CEB800A8D780 /* VideoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClient.swift; sourceTree = "<group>"; };
 		66AE73CB2AF6F8F700DE1406 /* Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AE73CE2AF6F8F700DE1406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66AE73D02AF6F8F700DE1406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,12 +69,15 @@
 				66AE73CE2AF6F8F700DE1406 /* AppDelegate.swift */,
 				66AE73D02AF6F8F700DE1406 /* SceneDelegate.swift */,
 				66AE73D22AF6F8F700DE1406 /* ViewController.swift */,
+				66AE74022AF6FA0400DE1406 /* VideoCaptureManager.swift */,
+				66AE74042AF701F100DE1406 /* H264Encoder.swift */,
+				6672EAC22AF7CCAE00A8D780 /* TCPClient.swift */,
+				6672EAC02AF7CB5200A8D780 /* CMSampleBuffer+isKeyFrame.swift */,
+				6672EAC42AF7CEB800A8D780 /* VideoClient.swift */,
 				66AE73D42AF6F8F700DE1406 /* Main.storyboard */,
 				66AE73D72AF6F8F800DE1406 /* Assets.xcassets */,
 				66AE73D92AF6F8F800DE1406 /* LaunchScreen.storyboard */,
 				66AE73DC2AF6F8F800DE1406 /* Info.plist */,
-				66AE74022AF6FA0400DE1406 /* VideoCaptureManager.swift */,
-				66AE74042AF701F100DE1406 /* H264Encoder.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -144,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6672EAC32AF7CCAE00A8D780 /* TCPClient.swift in Sources */,
 				66AE73D32AF6F8F700DE1406 /* ViewController.swift in Sources */,
+				6672EAC52AF7CEB800A8D780 /* VideoClient.swift in Sources */,
+				6672EAC12AF7CB5200A8D780 /* CMSampleBuffer+isKeyFrame.swift in Sources */,
 				66AE74052AF701F100DE1406 /* H264Encoder.swift in Sources */,
 				66AE73CF2AF6F8F700DE1406 /* AppDelegate.swift in Sources */,
 				66AE74032AF6FA0400DE1406 /* VideoCaptureManager.swift in Sources */,
